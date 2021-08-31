@@ -62,7 +62,7 @@ export default function Home() {
         </div>
       </main>
       <footer>
-        Copyright © 2021 TheMythMC. To be used in compliance with LGPLv3.
+        Copyright © 2021 TheMythMC. To be used in compliance with AGPLv3.
       </footer>
     </div>
   )
