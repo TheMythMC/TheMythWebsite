@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -20,14 +21,16 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="/downloads" className={styles.card}>
+          <a  className={styles.card}>
             <h2>Downloads &rarr;</h2>
             <p>For Downloads (of both mods and Installers), click here!</p></a>
 
-          <a href = "/about" className={styles.card}><p>
-            <h2>About &rarr;</h2>
+          <Link href="/downloads" className={styles.card} passHref={true}><p>
+           <a> <h2>About &rarr;</h2>
             Who is the TheMythMC? Find out here!
-            </p></a>
+            </a>
+            </p>
+            </Link>
 
           <a
             href="/projects"
@@ -48,7 +51,7 @@ export default function Home() {
           </a>
 
           <a
-          href="https://discord.gg/QsFtWTva8q"
+          href="/download"
           className={styles.card}
           >
             <h2>
