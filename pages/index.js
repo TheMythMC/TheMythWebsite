@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -19,7 +18,7 @@ export default function Home() {
         <h1 className={styles.title}>Welcome to TheMythMC</h1>
 
         <p className={styles.description}>
-          Creating Minecraft mods for All, Technical and Casual Players Alike
+          Creating Minecraft Tools for All, Technical and Casual Players Alike
         </p>
 
         <div className={styles.grid}>
@@ -48,7 +47,7 @@ export default function Home() {
             </p>
           </a>
 
-          <a href="/download" className={styles.card}>
+          <a href="/discord" className={styles.card}>
             <h2>Discord &rarr;</h2>
             <p>Want to speak with the mod makers directly? Head over here!</p>
           </a>

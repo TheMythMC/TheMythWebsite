@@ -16,10 +16,10 @@ export default function Downloads() {
                     <h1 className={styles.title}>
                         Downloads
                     </h1>
-                    <h2>Here is a list of the newest downloads:</h2>
-                    <h3>
+                    <p className={styles.description}>Here is a list of the newest downloads:</p>
+                    <p className={styles.description}>
                        You can click on the name to view older versions if you wish!
-                    </h3>
+                    </p>
                     <h3>
                     <ul>
                         <li>
