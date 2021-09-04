@@ -44,7 +44,7 @@ export default class MythicAddons extends Component {
 
   async getJson() {
     return await (
-      await axios.get("http://localhost:3000/api/downloads/mythic-addons")
+      await axios.get("/api/downloads/mythic-addons")
     ).data;
   }
 
