@@ -7,15 +7,15 @@ export default class MythicAddons extends Component {
     super({});
     this.json;
     this.state = {
-      Jars: new Map(),
+      Jars: [],
     };
   }
   
 
   componentDidMount() {
-    this.convertJson().then((map) => {
-      this.setState({ Jars: map });
-    });
+    this.getJson().then(res => {
+      this.setState({Jars: res})
+    })
   }
 
   render() {
@@ -33,12 +33,8 @@ export default class MythicAddons extends Component {
           <h1 className={styles.title}>MythicAddons Downloads</h1>
           <h3 className={styles.description}>
             <ul>{
-              // Removing this for now, cant figure it out... hard coding
-              //  (this.state.Jars.forEach( (k, v) => <li><a href={k}>{v}</a></li>))
+              this.state.Jars.map( (jar) => <li key={jar.split('/')[2]}><a href={jar}>{jar.split('/')[2]}</a></li>)
               }
-              <li>
-                <a href="/jars/mythic-addons/mythic-addons-1.17.1-1.2.2.jar">mythic-addons-1.17.1-1.2.2.jar</a>
-              </li>
               </ul>
           </h3>
         </main>
@@ -52,13 +48,4 @@ export default class MythicAddons extends Component {
     ).data;
   }
 
-  async convertJson() {
-    return new Map(Object.entries(await this.getJson()));
-  }
-
-  async init() {
-    this.convertJson().then((res) => {
-      this.setState({ Jars: res });
-    });
-  }
 }
