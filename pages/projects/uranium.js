@@ -16,8 +16,9 @@ export default function Uranium() {
       </Head>
       <main>
           <div className={styles.main}>
-        <div className={styles.title}>Uranium</div>
-        <h3 title="Why Uranium?">
+        <h1 className={styles.title}>Uranium</h1>
+        <h2>Why?</h2>
+        <h3 className={styles.about}>
           I named this mod Uranium because uranium, the element, is very <br/>
           unstable (sometimes), and while this mod&apos;s goal is to be as stable as <br/>
           possible there still might be issues. Also, it wont stop plugins from interfering with <br></br>

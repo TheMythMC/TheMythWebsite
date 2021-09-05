@@ -32,7 +32,7 @@ export default function Projects() {
           <h4>
             <ul>
               <li>
-                <a href="projects/barium">Barium</a> — An AutoUpdater focused on simplicity and speed
+                <a href="projects/barium">Barium</a> — An aut-updater focused on simplicity and speed
               </li>
               <li>
                 <a href="/projects/uranium">Uranium</a> — A fork of 
