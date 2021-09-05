@@ -13,8 +13,11 @@ body {
 }
 
 a {
+  color: white;
+  text-shadow: 0 0 4px rgb(0, 0, 0);
   text-decoration: none;
 }
+
 
 * {
   box-sizing: border-box;
