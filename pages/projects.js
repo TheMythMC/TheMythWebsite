@@ -31,10 +31,10 @@ export default function Projects() {
             Soon to be worked on
             <ul>
               <li>
-                Uranium — A fork of <a href="https://github.com/cardboardpowered/cardboard">Cardboard</a>but tuned to be as vanilla as possible.
+               <a href="/projects/uranium"> Uranium</a> — A fork of <a href="https://github.com/cardboardpowered/cardboard">Cardboard</a>but tuned to be as vanilla as possible.
               </li>
               <li>
-                Potassium — A fork of <a href="https://github.com/rizecookey/CombatEdit">CombatEdit</a>, added with more features.
+                <a href="/projects/potassium">Potassium</a> — A fork of <a href="https://github.com/rizecookey/CombatEdit">CombatEdit</a>, added with more features.
               </li>
             </ul>
           </h4>
