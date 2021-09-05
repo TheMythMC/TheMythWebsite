@@ -5,8 +5,9 @@ export default function About() {
     return (
         <div className={styles.container}>
             <Head>
-                <link href="favicon.ico"/>     
+                <title>TheMythMC — About</title>
                 <meta name="description" content="TheMythMC -- About" />
+                <link href="/favicon.ico"/>
             </Head>    
             <main>
                 <header>
@@ -15,7 +16,7 @@ export default function About() {
                 <div className={styles.main}>
                  <h1 className={styles.title}> About </h1>
                 <h3 className={styles.about}>
-                    TheMythMC is run by <a href="https://github/Mythbusters123">Mythbusters123</a>, but it was formed to give Myself an area to clone some projects. <br />
+                    TheMythMC is run by <a href="https://github.com/Mythbusters123">Mythbusters123</a>, but it was formed to give Myself an area to clone some projects. <br />
                     It then morphed into a project where I want to make everything as vanilla as possible,<br /> so far to fork <a href="https://github.com/cardboardpowered/cardboard">Cardboard </a>
                     to stabilize it and make it more usable. <br />The goal of this project is to make everything Fabric, so you don&apos;t ever need to use Bukkit ever again, <br />and to bring you the features of the past into modern versions of Minecraft!
                 </h3>

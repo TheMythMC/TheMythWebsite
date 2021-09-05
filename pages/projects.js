@@ -5,6 +5,7 @@ export default function Projects() {
   return (
     <div className={styles.container}>
       <Head>
+        <title>TheMythMC — Projects</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Projects TheMythMC is working on" />
       </Head>
@@ -16,8 +17,8 @@ export default function Projects() {
           TheMythMC is working on
         </h3>
         <p>
+          <h3>In Progress Mods</h3>
           <h4>
-            In Progress Mods
             <ul>
               <li>
                 MythicAddons — A carpet extension adding things that
@@ -27,14 +28,23 @@ export default function Projects() {
           </h4>
         </p>
         <p>
+          <h3>Soon to be worked on</h3>
           <h4>
-            Soon to be worked on
             <ul>
               <li>
-               <a href="/projects/uranium"> Uranium</a> — A fork of <a href="https://github.com/cardboardpowered/cardboard">Cardboard</a>but tuned to be as vanilla as possible.
+                <a href="projects/barium">Barium</a> — An AutoUpdater focused on simplicity and speed
               </li>
               <li>
-                <a href="/projects/potassium">Potassium</a> — A fork of <a href="https://github.com/rizecookey/CombatEdit">CombatEdit</a>, added with more features.
+                <a href="/projects/uranium">Uranium</a> — A fork of 
+                <a href="https://github.com/cardboardpowered/cardboard"> Cardboard </a>
+                but tuned to be as vanilla as possible.
+              </li>
+              <li>
+                <a href="/projects/potassium">Potassium</a> — A fork of{" "}
+                <a href="https://github.com/rizecookey/CombatEdit">
+                  CombatEdit
+                </a>
+                , added with more features.
               </li>
             </ul>
           </h4>
