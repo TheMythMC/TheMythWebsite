@@ -21,8 +21,8 @@ export default function Projects() {
           <h4>
             <ul>
               <li>
-                MythicAddons — A carpet extension adding things that
-                should(n&apos;t) be in the main game but aren&apos;t
+               <a href="/projects/mythic-addons"> MythicAddons — A carpet extension adding things that
+                should(n&apos;t) be in the main game but aren&apos;t </a>
               </li>
             </ul>
           </h4>
@@ -32,12 +32,12 @@ export default function Projects() {
           <h4>
             <ul>
               <li>
-                <a href="projects/barium">Barium</a> — An aut-updater focused on simplicity and speed
+                <a href="projects/barium">Barium</a> — An auto-updater focused on simplicity and speed
               </li>
               <li>
                 <a href="/projects/uranium">Uranium</a> — A fork of 
                 <a href="https://github.com/cardboardpowered/cardboard"> Cardboard </a>
-                but tuned to be as vanilla as possible.
+                but tuned to be as vanilla and stable as possible.
               </li>
               <li>
                 <a href="/projects/potassium">Potassium</a> — A fork of{" "}

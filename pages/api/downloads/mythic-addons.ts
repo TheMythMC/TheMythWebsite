@@ -1,8 +1,11 @@
 import fs from 'fs'
+import { NextApiResponse } from 'next';
+import { NextApiRequest } from 'next';
 
-export default function handler(req, res) {
-    let tmp = [];
-    
+export default function handler(req: NextApiRequest, res: NextApiResponse) {
+    let tmp: string[] = [];
+
+
     fs.readdirSync(__dirname + "/../../../../../public/jars/mythic-addons").forEach(file => {
        let array = file.split('/')
         
