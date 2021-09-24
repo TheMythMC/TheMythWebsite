@@ -23,7 +23,10 @@ export default function Downloads() {
                     <h3>
                     <ul>
                         <li>
-                            <u><a href="downloads/mythic-addons"><font color="blue" >Mythic Addons</font></a></u> — <u><a href="jars/mythic-addons/mythic-addons-1.17.1-1.2.2.jar"><font color="red">1.2.2</font></a></u>
+                            <u><a href="downloads/mythic-addons"><font color="grey" >Mythic Addons</font></a></u> — <u><a href="jars/mythic-addons/mythic-addons-1.17.1-1.3.1.jar"><font color="e8a7a7">1.3.1</font></a></u>
+                        </li>
+                        <li>
+                            <u><a href="downloads/barium"><font color="grey">Barium</font></a></u> — <u><a href="/"><font color="e8a7a7">NOT AVAILABLE</font></a></u>
                         </li>
                     </ul>
                     </h3>

@@ -7,14 +7,14 @@ export default class MythicAddons extends Component {
     super({});
     this.json;
     this.state = {
-      Jars: [],
+      jars: [],
     };
   }
   
 
   componentDidMount() {
     this.getJson().then(res => {
-      this.setState({Jars: res})
+      this.setState({jars: res})
     })
   }
 
@@ -33,7 +33,7 @@ export default class MythicAddons extends Component {
           <h1 className={styles.title}>MythicAddons Downloads</h1>
           <h3 className={styles.description}>
             <ul>{
-              this.state.Jars.map( (jar) => <li key={jar.split('/')[3]}><a href={jar}>{jar.split('/')[3]}</a></li>)
+              this.state.jars.map( (jar) => <li key={jar.split('/')[3]}><a href={jar}>{jar.split('/')[3]}</a></li>)
               }
               </ul>
           </h3>
