@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   color: white;
@@ -15,7 +19,6 @@ body {
 a {
   color: white;
   text-shadow: 0 0 6px rgb(0, 0, 0);
-  text-decoration: none;
 }
 
 

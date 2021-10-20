@@ -10,27 +10,25 @@ export default function About() {
                 <link href="/favicon.ico"/>
             </Head>    
             <main>
-            
-
-                <div className={styles.main}>
-                 <h1 className={styles.title}> About </h1>
-                <h3 className={styles.about}>
-                    TheMythMC is run by <a href="https://github.com/Mythbusters123">Mythbusters123</a>, but includes members from different portions of the Minecraft community. <br />
-                    This includes not only survival players but also PvP players and community managers.<br />
-                    It is a collection of contemporary Minecraft Modders and legacy ones. We mostly work with Java and JavaScript, <br />
-                    but will be expanding our repertoire to Rust, C++ and possibly Kotlin. <br />
-                    It is also a re-brand of PhoenixBotMC; bringing new life to an abandoned project. <br />
-                    The current projects are as follows: 
-                    <p>
-                        Finally finish PhoenixBotMC <br />
-                        Server-Sync <br />
-
+                <div>
+                    <h1 className="text-center text-5xl">
+                        About
+                    </h1>
+                    <br/>
+                    <p className = "text-center ">
+                        <h3 className="text-3xl font-bold">
+                            TheMythMC: Bringing a better fabric experience one mod at a time
+                        </h3>
+                        <h3 className="text-xl">
+                            TheMythMC is a GitHub organization run by Mythbusters123, but includes members from many aspects of the Minecraft community.
+                     <br /> This includes the Technical, PvP, and just normal Survival players who like modding. We are a dedicated group of programmers that
+                     <br /> strive to make the most of the game without sacrificing huge amounts of performance or server-admin hassle.
+                     <br /> Our mods strive to be as easy to use as possible, with no or minimal configuration required to run. And if there is a configuration, it should be simple.
+                     <br />
+                     <br /> We also plan on reviving <a href="https://phoenixproject.xyz">Project Phoenix</a>, a Hypixel Guilds moderation and Discord bot, that works as a bridge between Discord
+                     <br /> and the Hypixel Minecraft server.
+                        </h3>
                     </p>
-                    <br />
-                    <p>While it may look like not a ton of activity is going on, just remember that I do not push commits regularly and prefer to get a working version before committing the final product.
-                        <br /> Thank you for understanding.
-                    </p>
-                    </h3>
                 </div>
             </main>
         </div>    
