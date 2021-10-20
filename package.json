@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "heroku-postbuild": "npm run build",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start -p 4433",
+    "lint": "next lint",
+    "prod": "pm2 start \"npm run start\" --name themyth_webste"
   },
   "dependencies": {
     "autoprefixer": "^10.3.7",
@@ -27,6 +27,7 @@
     "@types/react": "^17.0.20",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.0",
-    "typescript": "^4.4.2"
+    "typescript": "^4.4.2",
+    "pm2": "5.1.2"
   }
 }
