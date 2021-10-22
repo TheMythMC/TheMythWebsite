@@ -53,8 +53,10 @@ export default function Home() {
           </a>
         </div>
       </main>
-      <footer>
+      <footer className="text-center">
         Copyright © 2021 TheMythMC. To be used in compliance with AGPLv3.
+        <br />
+        For business related inquires, email admin@themyth.dev 
       </footer>
     </div>
   );

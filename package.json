@@ -1,13 +1,14 @@
 {
   "name": "nextjs",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p 4433",
     "lint": "next lint",
-    "prod": "pm2 start \"npm run start\" --name themyth_webste"
+    "prod": "pm2 start \"npm run start\" --name themyth_webste",
+    "prod-restart": "pm2 restart themyth_website"
   },
   "dependencies": {
     "autoprefixer": "^10.3.7",
