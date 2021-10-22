@@ -16,20 +16,24 @@ export default function Downloads() {
                     <h1 className={styles.title}>
                         Downloads
                     </h1>
+                    <span className="bg-opacity-60 bg-black rounded">
+                        <br />
                     <p className={styles.description}>Here is a list of the newest downloads:</p>
                     <p className={styles.description}>
-                       You can click on the name to view older versions if you wish!
+                        You can click on the name to view older downloads if you wish.
                     </p>
-                    <h3>
+                    <h3 className="text-center text-xl">
                     <ul>
                         <li>
-                            <u><a href="downloads/mythic-addons"><font color="grey" >Mythic Addons</font></a></u> — <u><a href="jars/mythic-addons/mythic-addons-1.17.1-1.3.1.jar"><font color="e8a7a7">1.3.1</font></a></u>
+                            <u><a href="downloads/mythic-addons"><span style={{color:'grey'}}>MythicAddons</span></a></u> — <u><a href="jars/mythic-addons/mythic-addons-1.17.1-1.3.1.jar"><span style={{color: '#e8a7a7'}}>1.3.1</span></a></u>
                         </li>
                         <li>
-                            <u><a href="downloads/barium"><font color="grey">Barium</font></a></u> — <u><a href="/"><font color="e8a7a7">NOT AVAILABLE</font></a></u>
+                            <u><a href="downloads/barium"><span style={{color:'grey'}}>Barium</span></a></u> — <u style={{color: 'e8a7a7'}}><a href="/"><span style={{color: '#e8a7a7'}}>NOT AVAILABLE</span></a></u>
                         </li>
                     </ul>
                     </h3>
+                    <br />
+                    </span>
                 </div>
             </main>
         </div>
