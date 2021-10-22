@@ -15,9 +15,9 @@ export default function About() {
                         About
                     </h1>
                     <br/>
-                    <p className = "text-center bg-black bg-opacity-60 rounded-l">
+                    <p className = "text-center bg-black bg-opacity-60 rounded p-4">
                         <h3 className="text-3xl font-bold">
-                            TheMythMC: Bringing a better Fabric experience one mod at a time
+                            TheMythMC: Bringing a Better Fabric experience One Mod at a Time
                         </h3>
                         <h3 className="text-xl">
                             TheMythMC is a GitHub organization run by Mythbusters123, but includes members from many aspects of the Minecraft community.

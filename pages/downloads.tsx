@@ -16,7 +16,7 @@ export default function Downloads() {
                     <h1 className={styles.title}>
                         Downloads
                     </h1>
-                    <span className="bg-opacity-60 bg-black rounded">
+                    <span className="bg-opacity-60 bg-black rounded p-4">
                         <br />
                     <p className={styles.description}>Here is a list of the newest downloads:</p>
                     <p className={styles.description}>
