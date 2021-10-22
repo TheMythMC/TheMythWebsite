@@ -13,7 +13,6 @@
   "dependencies": {
     "autoprefixer": "^10.3.7",
     "axios": "^0.21.1",
-    "fs": "^0.0.1-security",
     "list-files": "^1.1.4",
     "list-react-files": "^0.2.0",
     "next": "11.1.0",
