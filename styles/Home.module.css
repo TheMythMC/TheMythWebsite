@@ -51,7 +51,7 @@
 
 .title {
   margin: 0;
-  line-height: 1.15;
+  line-height: 1;
   font-size: 4rem;
 }
 
@@ -85,7 +85,7 @@
 
 .card {
   margin: 1rem;
-  padding: 1.5rem;
+  padding: 0.8rem;
   text-align: left;
   color: inherit;
   background-color: rgba(0,0,0,0.4);
